@@ -48,7 +48,7 @@ export const siteConfig: SiteConfig = {
 	// 网站Card样式配置
 	card: {
 		// 是否开启卡片边框和阴影，开启后让网站更有立体感
-		border: true,
+		border: false,
 		// 是否让卡片风格跟随主题色相
 		followTheme: false,
 	},
@@ -110,7 +110,7 @@ export const siteConfig: SiteConfig = {
 	outdatedThreshold: 30,
 
 	// 是否开启分享海报生成功能
-	sharePoster: true,
+	sharePoster: false,
 
 	// OpenGraph图片功能,注意开启后要渲染很长时间，不建议本地调试的时候开启
 	generateOgImages: false,
@@ -150,7 +150,7 @@ export const siteConfig: SiteConfig = {
 		// 移动端默认布局模式，不设置则跟随 defaultMode
 		mobileDefaultMode: "list",
 		// 是否在文章列表中显示标签
-		showTags: true,
+		showTags: false,
 		// 文章简介显示行数，设为 0 则不截断
 		descriptionLines: 2,
 		// 是否允许用户切换布局
@@ -183,7 +183,7 @@ export const siteConfig: SiteConfig = {
 			// Umami JS地址，支持使用自建
 			scriptUrl: "https://cloud.umami.is/script.js",
 			// 是否追踪出站链接
-			trackOutboundLinks: true,
+			trackOutboundLinks: false,
 			// 是否收集浏览器性能指标
 			collectWebVitals: false,
 			// 会话回放配置
